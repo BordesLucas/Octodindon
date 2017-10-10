@@ -1,0 +1,184 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin : 0;
+    padding : 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colonne {
+    flex-direction: column;
+}
+
+.flexleft {
+    justify-content: left;
+}
+
+#text p {
+    width: 50%;
+    text-align: justify;
+}
+
+#text {
+    padding: 30px;
+}
+
+#menu {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(95, 95, 114);
+    position: fixed;
+    z-index: 20;
+    top : 0;
+    left: 0;
+}
+
+#footer {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(95, 95, 114);
+    color: white;
+}
+
+
+#title {
+    color:white; 
+}
+
+#title span {
+    margin: 10px;
+    font-size: 1.5em
+}
+
+#contenu {
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+#fondhome {
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#fond {
+    height: 20vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#fondimg {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.rad {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img1 {
+    width: 30 vw;
+    height: 25vw;
+    margin-right: 30px;
+}
+
+.img1 img, .img2 img {
+    width: 100%;
+}
+#content {
+    padding: 30px;
+}
+
+.img2 {
+    width: 15vw;
+    height: 10vw;
+}
+
+
+#fondhomeimg {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#fondcontent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top : 0;
+    left: 0;
+    color:white;
+    text-shadow: 0 0 10px black;
+}
+#fondcontent img {
+    width: 10%;
+}
+
+#fondothercontent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top : 0;
+    left: 0;
+    color:white;
+    text-shadow: 0 0 10px black;
+}
+#fondothercontent img {
+    width: 5%;
+}
+
+#fondothercontent h1 {
+    margin-left: 2%;
+}
+
+
+#liens {
+    width: 100%;
+    padding: 30px;
+}
+
+.lien {
+    margin: 35px;
+    width: 15vw;
+    height: 15vw;
+    color: rgb(95, 95, 114);
+    border-radius: 100%;
+    border: 3px solid rgb(95, 95, 114);
+    font-size: 1.5em;
+}
+
+.lien p {
+    margin: 0;
+}
+.lien:hover{
+    cursor: pointer;
+    background:  rgb(187, 221, 255);
+}
+
+.lien img {
+    width: 50%;
+}
